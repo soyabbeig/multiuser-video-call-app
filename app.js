@@ -1,6 +1,5 @@
 let express = require( 'express' );
 let app = express();
-
 let server = require( 'http' ).Server( app );
 let io = require( 'socket.io' )( server );
 let stream = require( './ws/stream' );
@@ -17,5 +16,5 @@ app.get( '/', ( req, res ) => {
 
 io.of( '/stream' ).on( 'connection', stream );
 
-app.listen(process.env.PORT || 8000 );
+server.listen(process.env.PORT || 8000 );
 console.log("Open any browser and enter in url localhost:8000");
