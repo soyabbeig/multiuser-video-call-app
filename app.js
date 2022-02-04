@@ -17,5 +17,5 @@ app.get( '/', ( req, res ) => {
 
 io.of( '/stream' ).on( 'connection', stream );
 
-server.listen(process.env.PORT || 8000; );
+app.listen(process.env.PORT || 8000; );
 console.log("Open any browser and enter in url localhost:8000");
