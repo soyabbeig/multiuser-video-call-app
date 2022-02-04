@@ -1,19 +1,19 @@
 {
-  "name": "multiuser-video-call-app",
+  "name": "zoomclone",
   "version": "1.0.0",
-  "description": "node app ",
+  "description": "",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js"
-},
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
-  "type": "git",
-  "url": ""
-},
+    "type": "git",
+    "url": "git+https://github.com/soyabbeig/multiuser-video-call-app.git"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": ""
-},
-  "homepage": ""
+    "url": "https://github.com/soyabbeig/multiuser-video-call-app/issues"
+  },
+  "homepage": "https://github.com/soyabbeig/multiuser-video-call-app#readme"
 }
